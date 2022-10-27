@@ -1,0 +1,80 @@
+<style>
+    header{
+        background-color: rgb(154, 163, 122);
+        display: grid;
+        padding: 1em;
+        align-items: center;
+        grid-template-areas: "itens pesquisa";
+    }
+
+    .opcoes__header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .categorias__header{
+        padding: 0 1em;
+        font-size: 20px;
+    }
+
+    .link__header{
+        color: black;
+        text-decoration: none;
+    }
+
+    .link__header:hover{
+        color: rgb(81, 87, 61);
+    }
+
+    .categorias__header:hover{
+        color: rgb(81, 87, 61);
+    }
+
+    .lista-menu{
+        display: none;
+    }
+
+    .lista-menu__visivel{
+        height: 10px;
+        display: block;
+        position: absolute;
+        font-size: 20px;
+        top: 72px;
+        left: 15vw;
+        min-width: 200px;
+    }
+
+    .lista-menu__item{
+        padding: 1em 1em;
+        background-color: rgb(154, 163, 122);
+    }
+
+    .lista-menu__item:hover{
+        background-color: rgb(81, 87, 61);
+    }
+
+    .lista-menu__link{
+        color:black;
+        text-decoration: none;
+    }
+
+    .pesquisa__header{
+        display: flex;
+        justify-content:center;
+    }
+
+    .herder__busca{
+        border-radius: 30px;
+        padding: 8px 0px ;
+        font-size: 15px;
+        padding: 10px 20px;
+        width: 30vw;
+        grid-area: "pesquisa";
+    }
+
+    .herder__busca::placeholder{
+        background-position: 100%;
+        text-align: center;
+    }
+
+</style>
